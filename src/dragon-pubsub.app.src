@@ -1,0 +1,21 @@
+{application, 'dragon-pubsub', [
+    {description, "A pubsub definition for the LFE Dragon web framework"},
+    {vsn, "0.0.0"},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib
+    ]},
+    {env,[]},
+    {modules, []},
+
+    %% Package metadata:
+    {pkg_name, dragon_pubsub},
+    {maintainers, ["Duncan McGreggor"]},
+    {licenses, ["Apache-2"]},
+    {links, [
+        {"GitHub", "https://github.com/lfe-dragon/dragon-pubsub"},
+        {"Hex", "https://hex.pm/packages/dragon_pubsub"}
+    ]},
+    {exclude_files, ["priv/*"]}
+ ]}.
